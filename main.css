@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+#card1, #card2 {
+    margin-left: 20px;
+    font-weight: bold;
+    color: blue;
+}
