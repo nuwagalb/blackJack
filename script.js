@@ -236,7 +236,7 @@ function startBlackJack () {
             resetButtons();
         }
 
-        if (dealerCards.length === 5 && dealerScore < 21 & !gameOver) {
+        if (dealerCards.length === 5 && dealerScore < 21 && !gameOver) {
             textArea.innerText += "DEALER WINS";
         }
 
